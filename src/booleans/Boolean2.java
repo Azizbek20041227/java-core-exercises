@@ -10,10 +10,6 @@ public class Boolean2 {
 
         boolean Tekshir = (A % 2 != 0);
 
-        if (Tekshir) {
-            System.out.println("Jumla rost: A soni toq");
-        } else {
-            System.out.println("Jumla yolg'on: A soni juft");
-        }
+        System.out.println("Natija : " + Tekshir);
     }
 }

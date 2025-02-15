@@ -13,10 +13,6 @@ public class Boolean4 {
 
         boolean Tekshir = (A > 2 && B <= 3);
 
-        if (Tekshir) {
-            System.out.println("Jumla rost");
-        } else {
-            System.out.println("Jumla yolg'on");
-        }
+        System.out.println("Natija : " + Tekshir);
     }
 }

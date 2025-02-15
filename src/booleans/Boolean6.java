@@ -14,12 +14,8 @@ public class Boolean6 {
         System.out.print("C sonini kiriting: ");
         int C = scanner.nextInt();
 
-        boolean Tekshir = (A <= B || B <= C);
+        boolean Tekshir = (A <= B && B <= C);
 
-        if (Tekshir) {
-            System.out.println("Jumla rost");
-        } else {
-            System.out.println("Jumla yolg'on");
+        System.out.println("Natija : " + Tekshir);
         }
-    }
 }
