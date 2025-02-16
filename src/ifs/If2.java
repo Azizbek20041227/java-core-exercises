@@ -15,7 +15,7 @@ public class If2 {
         } else if (n < 0) {
             n -= 2;
         } else {
-            n = 10;
+            n = 0;
         }
 
         System.out.println("Natija: " + n);
